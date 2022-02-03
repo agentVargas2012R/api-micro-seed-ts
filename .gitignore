@@ -4,6 +4,8 @@
 #IML
 api-micro-seed-ts.iml
 
+.idea/
+
 # Logs
 logs
 *.log
