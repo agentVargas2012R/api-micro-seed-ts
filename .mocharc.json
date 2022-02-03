@@ -1,0 +1,5 @@
+{
+  "exentions": ["ts", "tsx"],
+  "spec": ["test/**/*.test.ts"],
+  "require": "ts-node/register"
+}
