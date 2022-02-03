@@ -10,7 +10,8 @@
     "release:patch": "npm build && npm version patch",
     "release:minor": "npm build && npm version minor",
     "release:major": "npm build && npm version major",
-    "test": "mocha -r ts-node/register --watch --watch-files \"src/**/*.ts,test/**/*.test.ts\" --recursive --extensions 'ts'"
+    "test": "mocha",
+    "test:watch": "mocha -r ts-node/register --watch --watch-files \"src/**/*.ts,test/**/*.test.ts\" --recursive --extensions 'ts'"
   },
   "author": "",
   "license": "ISC",
